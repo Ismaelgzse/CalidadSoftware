@@ -73,7 +73,7 @@ task gitCommit{
     doLast{
         System.setProperty('java.awt.headless','false')
         new SwingBuilder().edt{
-            dialog(modal:true, title: 'Enter commit message', alwaysçOnTop:true,resizable:false, locationRelativeTo:null, pack:true, show:true){
+            dialog(modal:true, title: 'Enter commit message', alwaysOnTop:true,resizable:false, locationRelativeTo:null, pack:true, show:true){
                 vbox{
                     label(text:"Please enter your commit message")
                     def imput1= textFiled()
