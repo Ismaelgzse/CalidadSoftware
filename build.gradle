@@ -32,7 +32,8 @@ sonarqube {
     property "sonar.projectKey", "Ismaelgzse_CalidadSoftware"
     property "sonar.organization", "grupo3calidad"
     property "sonar.host.url", "https://sonarcloud.io"
-    //property "sonar.login", "0532e937b3dd62a3735b4c59afc7601fd6ead5e4"
+    property "sonar.login", "0532e937b3dd62a3735b4c59afc7601fd6ead5e4"
+    property "sonar.branch.name", System.getenv('main')
   }
 }
 
